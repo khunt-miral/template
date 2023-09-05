@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #444444;
-    font-weight: 400;
+    font-weight: 500;
     background: #ffffff;
     font-family: 'Barlow', sans-serif;
 }
@@ -118,22 +118,11 @@ a:focus {
     overflow: hidden;
 }
 
-.top-bar .logo h1 {
-    margin: -4px 0 0 0;
-    color: #eb0f0f;
-    font-size: 50px;
-    line-height: 50px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
-
-
-.top-bar .logo img {
-    width: auto;
+.top-bar .logo img{
     height: auto;
+    width: auto;
 }
+
 
 .top-bar .top-bar-item {
     display: flex;
@@ -1113,9 +1102,9 @@ a:focus {
 
 .blog .blog-meta p {
     margin-top: 2vh;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 14px;
-
+    font-weight: 700;
 }
 
 .blog .blog-meta p:first-child {
@@ -1578,7 +1567,7 @@ a:focus {
 .footer .footer-contact h2,
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
-    margin-bottom: 30px;
+    margin: 30px 0;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1769,4 +1758,15 @@ a:focus {
 .fact-container{
     display: flex;
     justify-content: center;
+}
+
+.footer-logo img{
+    width: auto;
+    max-width: 100%;
+    max-height: 90px;
+    margin: 30px 0;
+}
+
+.footer-content p{
+    color: white;
 }
